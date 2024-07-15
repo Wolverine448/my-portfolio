@@ -18,9 +18,9 @@ export default function Home() {
         <AnimatedText text="Hi, I'm" className="text-5xl text-left md:text-6xl" />
         <TypeAnimation
       sequence={[
-        'Teja Pothapragada',
+        'Sai Santhosh Pothapragada',
         1000,
-        'Full stack developer',
+        'CyberSecurity Champion',
         1000,
         'Team Leader',
         1000,
@@ -31,8 +31,7 @@ export default function Home() {
       style={{ display: 'inline-block' }}
       repeat={Infinity}
     />
-        <p className="font-medium mt-4">As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-          Explore my latest projects and articles, showcasing my expertise in React.js and web development.</p>
+        <p className="font-medium mt-4">Safeguarding the digital world, one line of code at a time.</p>
 
         <div className="flex items-center self-start mt-2">
           <Link href="/SKTReact1.pdf" target="_blank" download={true}
